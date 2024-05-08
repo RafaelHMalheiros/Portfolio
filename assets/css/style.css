@@ -853,9 +853,10 @@ a:hover {
 --------------------------------------------------------------*/
 .service-box {
   background-color: #fff;
-  padding: 2.5rem 1.3rem;
+  padding: 2.5rem 0.5rem;
   border-radius: 3rem;
   margin-bottom: 3rem;
+  display: inline-block;
   text-align: center;
 }
 
@@ -895,6 +896,47 @@ a:hover {
 }
 
 /*--------------------------------------------------------------
+# Certificates
+--------------------------------------------------------------*/
+.certificates-box {
+  background-color: #fff;
+  padding: 2.5rem 0.5rem;
+  border-radius: 3rem;
+  margin-bottom: 3rem;
+  display: inline-block;
+  text-align: center;
+}
+
+.certificates-box .certificates-ico {
+  margin-bottom: 1rem;
+  color: #1e1e1e;
+  height: 500px;
+}
+
+.certificates-box .ico-circle {
+  transition: all 500ms ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.certificates-box .ico-circle i {
+  line-height: 0;
+  font-size: 40px;
+}
+
+.certificates-box .s-title {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0.4rem 0;
+}
+
+.certificates-box .s-description {
+  color: #4e4e4e;
+}
+
+/*--------------------------------------------------------------
 # Counter
 --------------------------------------------------------------*/
 .counter-box {
@@ -928,7 +970,7 @@ a:hover {
 # Portfolio
 --------------------------------------------------------------*/
 .work-box {
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
@@ -946,6 +988,7 @@ a:hover {
 
 .work-img img {
   transition: all 1s;
+  height: 200px;
 }
 
 .work-content {
@@ -1224,6 +1267,17 @@ a:hover {
 
 .card-blog .card-body {
   position: relative;
+  height: 180px;
+}
+
+.card-blog .card-img {
+  display: block;
+  overflow: hidden;
+  text-align: center;
+}
+
+.card-blog .card-img img {
+  height: 200px;
 }
 
 .card-blog .card-category-box {
